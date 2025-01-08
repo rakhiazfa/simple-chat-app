@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Go Websocket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div
+      class="w-full max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden"
+    >
+      <div class="bg-blue-500 p-4 text-white text-center font-bold">
+        Chat Room
+      </div>
+      <div id="chat-box" class="p-4 h-80 overflow-y-auto"></div>
+      <form id="chat-form" class="flex items-center border-t p-2">
+        <input
+          id="message-input"
+          type="text"
+          class="flex-grow bg-gray-100 p-2 rounded-lg outline-none focus:ring-2 focus:ring-blue-400"
+          placeholder="Type your message..."
+          required
+        />
+        <button
+          type="submit"
+          class="ml-2 bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-lg"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>

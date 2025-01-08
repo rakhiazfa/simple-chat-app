@@ -1,0 +1,21 @@
+  # Binary files
+bin/
+
+# Vendor directory
+vendor/
+
+# IDE/editor configurations
+.idea/
+
+# Cache, test results, and profiling
+*.out
+*.prof
+
+# Environment files / configuration
+.env
+*.local
+config.json
+firebase-admin-sdk.json
+
+# Log files
+*.log
